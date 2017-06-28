@@ -1,5 +1,5 @@
 (function(){
-	angular.module("myApp",["header","common"]);
+	angular.module("myApp",["header","common","employee","footer","jobs"]);
 	
 	angular.module("myApp")
 	.config(function(){

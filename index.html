@@ -2,24 +2,34 @@
 
 <head>
 	<title>index</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="styles/main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script src="bower_components/angular/angular.js"></script>
 </head>
 
-<body>
+<body >
 	<div class="container-fliud">
-		<div ng-controller="headerCtrl as hc"  common-header>
+		<div ng-controller="headerCtrl as hc" common-header>
 			<!--"ng-include="'app/header/header.tpl.html'"-->
+
 		</div>
 	</div>
+	<script src="js/products.js"></script>
+	<script src="app/products/products.js"></script>
+	<script src="app/products/productsCtrl.js"></script>
+	<script src="app/home/home.js"></script>
+	<script src="app/home/homeCtr.js"></script>
 	<script src="app/jobs/jobs.js"></script>
 	<script src="app/jobs/jobsCtrl.js"></script>
 	<script src="app/footer/footer.js"></script>
 	<script src="app/footer/footerCtrl.js"></script>
-	<script src="app/employee/employee.js"></script>
-	<script src="app/employee/employeeCtrl.js"></script>
+	<script src="app/login/login.js"></script>
+	<script src="app/login/loginCtrl.js"></script>
 	<script src="app/clients/client.js"></script>
 	<script src="app/clients/clientCtrl.js"></script>
 	<script src="app/common/common.js"></script>
